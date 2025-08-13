@@ -1,0 +1,115 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+main{
+    margin: 15px;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;  
+    align-items: center;               
+    text-align: center;
+    background-color: #7adaa5;
+}
+
+/* Navigation style */
+
+nav {
+    padding: 5px;
+    background-color: #E1AA36;
+    justify-content: center;
+    display:flex;
+}
+nav a {
+  color: #101010;         
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {      
+  text-decoration: underline; 
+}
+nav a:visited {
+  color: #444040;         
+}
+
+li {
+    display: flex;
+    margin: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+nav ul{
+    display: flex;
+}
+
+
+/* Footer */
+
+footer { 
+    background-color:#3b6a50;
+    font-size: 15px;
+    font-weight: Bold;
+    justify-content: center;
+    gap:25px;
+    display: flex;
+    
+}
+footer a{
+    color:white;
+    text-decoration: none;
+    }
+
+
+/* Other */
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #239ba7;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* table style */
+
+table caption {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+    border-bottom: thin solid black;
+}
+
+thead tr {
+    background-color: darkblue;
+    color: cornsilk;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(142, 219, 126);
+}
+
+tbody tr:hover {
+    background-color: rgb(101, 141, 232);
+}
+
+
+
